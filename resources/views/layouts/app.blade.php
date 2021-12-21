@@ -56,7 +56,7 @@
         </div>
     </div>
 </body>
-<script src="//cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
 <script>
 CKEDITOR.replace( 'description' );
 </script>
